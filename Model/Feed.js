@@ -4,6 +4,7 @@ import { Schema } from "mongoose";
 const feedSchema = new Schema({
   about: {
     type: String,
+    trim : true   
   },
   feedPost: {
     type: String,
